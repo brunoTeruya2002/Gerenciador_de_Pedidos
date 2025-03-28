@@ -1,0 +1,33 @@
+.sidebarItemsContainer::-webkit-scrollbar {
+  width: 7px;
+}
+
+.sidebarItemsContainer::-webkit-scrollbar-thumb {
+  background-color: #414149;
+  border-radius: 4px;
+  border: 2px solid #595960;
+}
+
+/* Para navegadores Firefox */
+.sidebarItemsContainer {
+  scrollbar-width: thin; /* Define a largura da barra de rolagem para navegadores Firefox */
+  scrollbar-color: #414149 #595960; /* Define a cor da barra de rolagem e do polegar */
+}
+
+/* Estilos adicionais para a barra de rolagem em outros navegadores, se necessário */
+.sidebarItemsContainer::-webkit-scrollbar-track {
+  background-color: transparent; /* Defina a cor de fundo da pista de rolagem */
+}
+
+
+
+.showStatus{
+  display:block
+}
+
+@media (max-width: 500px){
+  .showStatus{
+    display:none
+  }
+
+}
