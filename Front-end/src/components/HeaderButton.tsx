@@ -17,7 +17,7 @@ export const HeaderButton = ({ value, children, color = ButtonColorEnum.BLUE }: 
     <button
       type="button"
       className={`w-full flex items-center justify-center gap-1 
-            font-medium rounded-lg text-xs px-5 py-2 text-center ${color}`}
+            font-medium rounded-lg px-5 py-2 text-sm sm:text-lg text-center ${color}`}
     >
       {children}
       {value}

@@ -6,8 +6,10 @@ module.exports = {
   ],
   theme: {
     screens: {
+      'xxs-table':{'min':'0px','max':'510px'},
       'xs': '480px',  // Breakpoint extra pequeno
-      'sm-table':'595px',
+      'xs-table':'510px',
+      'sm-table':'600px',
       'sm': '640px',  // Breakpoint pequeno
       'md': '768px',  // Breakpoint médio
       'md-table': '900px',

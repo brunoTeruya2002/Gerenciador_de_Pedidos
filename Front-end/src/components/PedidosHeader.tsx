@@ -6,7 +6,7 @@ import { ButtonColorEnum, HeaderButton } from "./HeaderButton";
 
 export const PedidosHeader = () => {
     return(
-        <div className="relative flex-col gap-4 flex p-4 border border-cyan-500 justify-evenly items-center">
+        <div className="h-[20hv] relative flex-col gap-4 flex p-4 justify-evenly items-center">
           <div className={`relative w-full sm:w-[500px] shadow-lg dark:shadow-gray-800  
           justify-between items-center text-xs text-gray-900 rounded-lg bg-gray-700 ${styles.searchHeader}`}>
             
